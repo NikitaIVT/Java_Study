@@ -22,6 +22,7 @@ public class FreshJuiceTest {
 		
 		glass.taste = FreshJuice.FreshJuiceTaste.PINEAPPLE;
 		glass.size = FreshJuice.FreshJuiceSize.SMALL;
+		
 		System.out.println("Tastes of juise:");
 		for (FreshJuice.FreshJuiceTaste tastes : tasteTypes){
 			juiceNumber = tastes.ordinal() + 1;
